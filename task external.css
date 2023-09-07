@@ -1,0 +1,33 @@
+div{
+
+			border: 1px solid white;
+			margin: 10px 10px 10px 10px;
+			border-radius: 0px;
+}
+.a{
+	border-radius: 50px;
+}
+.b{
+	border-radius: 50px;
+}
+.c{
+	border-radius: 50px;
+}
+p{
+	text-transform: lowercase;
+	text-align: justify;
+}
+button
+{
+	border-radius: 50px;
+	background-color: blue;
+
+}
+.a{
+	border: 1px solid whitesmoke;
+}
+
+i{
+	font-size: 60px;
+	color: blue;
+}

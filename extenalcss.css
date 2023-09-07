@@ -1,0 +1,71 @@
+.external{
+	border: 3px solid red;
+	background-color: violet;
+}
+#external{
+	border: 3px pink;
+	background-color: orange;
+	color: blue;
+}
+p{
+
+
+	font-weight: 50px;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}
+h3{
+	background-color: brown;
+	color: blue;
+}
+*{
+	font-size: 40px;
+	font-family: cursive;
+	color: green;
+}
+input[type="text"]{
+	color: red;
+}
+
+input[type="number"]{
+	color: yellow;
+}
+input[type="mail"]{
+	color: blue
+}
+input[type="password"]{
+	color: orange;
+}
+a[href]{
+	background-color: yellow;
+}
+h2{
+	background-color: black;
+	color: blue;
+}
+a:hover{
+	color: red;
+	font-size: 50px;
+}
+a:link{
+	color: brown;
+}
+
+a:visited{
+	color: green;
+}
+a:active{
+	color: blue;
+}
+div:hover{
+	height: 300px;
+	width: 200px;
+	background-color: orange;
+}
+img[src]{
+	border: 30px solid black;
+	height: 20px
+} 

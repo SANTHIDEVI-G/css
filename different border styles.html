@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>curve style</title>
+</head>
+<style type="text/css">
+	.scoop{
+		position:relative;
+		font-size: 25px;
+		font-family: initial;
+		z-index: 1;
+		left: 200px;
+		top: 100px;
+	}
+	.scoop:before{
+		z-index: -1;
+		content: "";
+		position: absolute; 
+		background:  radial-gradient(circle at 0 0 , transparent 10%, red calc(10%)) top left;radial-gradient(circle at 100% 0, transparent 10%,orangered calc(10%)) top right; radial-gradient (circle at 0 100%, transparent 10%, orangered calc(10%)) bottom left, radial-gradient(circle at 100% 100%, transparent 10%, orangered calc(10%)) bottom right;
+			background-size: 50% 50%;
+			background-repeat: no-repeat;
+			width: 800px;
+			height: 200px;
+			left: -40px;
+			top: -45px;
+	 	
+</style>
+
+<body>
+	<div class="scoop"></div>
+	<center>
+	<p>this is a div with a border image<br>and three lines of text<br>making it much biggger than the original image</p>
+</center>
+
+</body>
+</html>

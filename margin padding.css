@@ -1,0 +1,21 @@
+.div{
+			background-color: gray;
+			height: 400px;
+			width: 900px;
+			padding-bottom: 220px;
+		}
+.a{
+	background-color: orange;
+	margin: 30px;
+	padding-bottom: 50px;
+}
+.b{
+	background-color: pink;
+	margin: 30px;
+	padding-bottom: 50px;
+}
+.c{
+	background-color: blueviolet;
+	margin: 30px;
+	padding-top: 150px;
+}

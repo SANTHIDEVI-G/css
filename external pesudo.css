@@ -1,0 +1,14 @@
+a:visited{
+	color: green;
+}
+a:active{
+	color: blue;
+}
+div:hover{
+	height: 300px;
+	width: 200px;
+	background-color: orange;
+}
+a:link{
+	color: brown;
+}

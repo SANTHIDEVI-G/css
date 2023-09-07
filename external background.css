@@ -1,0 +1,12 @@
+
+
+div{
+	height: 400px;
+	width: 300px;
+	background-color: pink;
+
+	background-image: url('photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
